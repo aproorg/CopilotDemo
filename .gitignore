@@ -1,0 +1,20 @@
+# Secrets
+appsettings.secrets.json
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf

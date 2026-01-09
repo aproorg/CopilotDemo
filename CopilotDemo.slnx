@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CopilotDemo.Core/CopilotDemo.Core.csproj" />
+  <Project Path="CopilotDemo.Repository/CopilotDemo.Repository.csproj" />
+  <Project Path="CopilotDemo.Tests/CopilotDemo.Tests.csproj" Id="820400d1-66c3-4992-8415-a77ac5c50c9e" />
+  <Project Path="CopilotDemo.Web/CopilotDemo.Web.csproj" />
+</Solution>
