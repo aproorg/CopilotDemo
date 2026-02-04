@@ -213,3 +213,17 @@ dotnet test
 ## License
 
 This is a demo project for educational purposes.
+
+## Workshop Feature Suggestions
+
+Here are 5 feature ideas to practice using GitHub Copilot (estimated 2-hour workshop):
+
+1. **Add Due Dates to Todos**: Extend the `TodoItem` entity with a `DueDate` property and add filtering capabilities to get overdue tasks or tasks due within a specific date range.
+
+2. **Add Priority Levels**: Implement a priority system (Low, Medium, High, Critical) for todos. Add the ability to sort and filter todos by priority, and update the API endpoints accordingly.
+
+3. **Add Tags/Categories**: Create a tagging system where each todo can have multiple tags (e.g., "work", "personal", "urgent"). Implement endpoints to filter todos by tags and manage tags.
+
+4. **Add Input Validation and Error Handling**: Enhance the API with proper model validation using Data Annotations or FluentValidation. Add comprehensive error handling middleware that returns consistent error responses.
+
+5. **Add Search and Pagination**: Implement full-text search across todo titles and descriptions, and add pagination support to the GET all endpoint with configurable page size and page number.
