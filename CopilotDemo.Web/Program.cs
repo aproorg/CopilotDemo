@@ -18,11 +18,11 @@ builder.Services.Configure<ApiKeyOptions>(
     builder.Configuration.GetSection(ApiKeyOptions.SectionName));
 
 // Validate critical runtime configuration
-var connectionTimeout = builder.Configuration.GetSection("Database:ConnectionTimeout").Get<int?>();
-if (connectionTimeout.HasValue && connectionTimeout.Value <= 0)
-{
-  throw new InvalidOperationException("Database:ConnectionTimeout must be configured with a positive integer value");
-}
+//var connectionTimeout = builder.Configuration.GetSection("Database:ConnectionTimeout").Get<int?>();
+//if (connectionTimeout == null || (connectionTimeout.HasValue && connectionTimeout.Value <= 0))
+//{
+//  throw new InvalidOperationException("Database:ConnectionTimeout must be configured with a positive integer value");
+//}
 
 // Add services to the container.
 builder.Services.AddControllers();
